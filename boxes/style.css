@@ -1,0 +1,55 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+/*margins top right bottom left
+margin top-bottom right left
+margin all
+*/
+h1{
+    text-align: center;
+    margin: 10px;
+}
+.container{
+    margin: 0 auto;
+    background-color: yellowgreen;
+    color: rgb(186, 129, 53);
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    padding: 1em;
+    border: 4px dotted red;
+}
+.container .item{
+    margin:1.3em;
+}
+.container .item:nth-child(1){
+    font-weight: bold;
+}
+a{
+    background-color: brown;
+    color: aquamarine;
+    text-align: center;
+    text-decoration: none;
+    width: 15px;
+    height:  50px;
+    margin: 1.5em 15px 10px 1.3rem;
+}
+button{
+    width: 150px;
+    height: 50px;
+    margin: 2em 0 0 1em;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+button:hover,
+a:hover{
+    background-color: goldenrod;
+    border: 5px solid red;
+    color: blue;
+    font-size: 1em;
+}
